@@ -2,6 +2,7 @@
 // Результат присвойте переменной sum
 
 // your code
+
 let sum = 0;
 
 let number = 1;

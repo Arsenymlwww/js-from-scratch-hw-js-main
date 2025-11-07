@@ -6,4 +6,14 @@
 */
 
 // your code
-let factorial
+
+let factorial = 1;
+
+let brabus = 1;
+
+while (brabus <=10) {
+  factorial = factorial * brabus;
+  brabus++;
+}
+
+console.log(factorial);
