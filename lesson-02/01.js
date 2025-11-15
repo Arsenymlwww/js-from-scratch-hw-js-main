@@ -17,41 +17,7 @@ let isAccess
 
 // your code
 
-isAccess = (isAdmin || isVerifiedUser) && (hasSpecialPermission = hasTemporaryPass)
+isAccess = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass);
 
-console.log (isAccess)
-
-// const isAdmin = "админ"
-// const isVerifiedUser = "сотрудник"
-// const hasSpecialPermission = "разрешение"
-// const hasTemporaryPass = "зеленая карточка"
-
-// let isAccess = false;
-
-
-// while (!isAccess) {
-//         const userStatus = prompt ("Введите свой статус!").toLowerCase();
-        
-//     if (userStatus === isAdmin) { 
-//     alert ("Вы администратор! Проверим ваши разрешения") 
-//     } else if (userStatus === isVerifiedUser) {
-//     alert ("вы являетесь сотрудником ! Проверим Ваши разрешения !")
-//     } else {
-//     alert("введите корректные данные")
-//     }
-
-//     const userPerm = prompt ("У вас есть разрешение или пропуск?").toLowerCase();
-
-//     if (userPerm === hasSpecialPermission || userPerm === hasTemporaryPass){
-//     alert ("вы подтвердили наличие разрешения/пропуска !")
-// }else {
-//     alert ("у вас нет пропуска-разрешения, доступ запрещен!")
-// }
-
-//     if (( userStatus === isAdmin || userStatus === isVerifiedUser )&&( userPerm === hasSpecialPermission || userPerm === hasTemporaryPass)){
-//     alert (" вы получили доступ! ")
-//     isAccess = true
-// }   else { 
-//     alert ("доступ запрещен!")  }
-// }
+console.log (isAccess);
 
