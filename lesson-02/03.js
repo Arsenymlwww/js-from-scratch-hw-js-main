@@ -7,3 +7,21 @@
 const score = 70 // тестовое значение, можно изменять
 let grade
 // your code
+if (score < 50){
+    grade = "F"
+}
+else if (score >= 50 && score <70){
+    grade = "D"
+}
+else if (score >=70 && score < 80){
+    grade = "C"
+}
+else if (score >=80 && score < 90){
+    grade = "B"
+}
+else  {
+    grade = "A"
+}
+
+
+
