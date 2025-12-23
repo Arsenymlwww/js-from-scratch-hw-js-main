@@ -6,4 +6,21 @@
   Другой вариант - использовать метод split строк, и метод массива join.
 */
 
-function capitalizeWords() {}
+// function capitalizeWords() {}
+
+const capitalizeWords = (str) => {
+  const arrStr = str.split(" ");
+  const gg = arrStr.map(w => w[0].toUpperCase() + w.slice(1))
+  return gg.join(" ")
+}
+
+
+
+
+
+
+
+
+
+
+
